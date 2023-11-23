@@ -1,2 +1,10 @@
 
-/* Header */
+body {
+    font: Light 300;
+    background-color: white;
+}
+
+.header {
+    background-color: black;
+    justify-content: row;
+}
