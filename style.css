@@ -1,7 +1,10 @@
-
+* {
+    /* border: 1px solid red; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 body {
     background: #eee;
-    font-family: Arial, light 300;
+    
 }
 
 .container {
@@ -53,4 +56,125 @@ header {
     color: #fff;
     font: light 300;
     font-size: 3em;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tickets {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ticket-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+
+.ticket-image {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.ticket-info {
+    flex: 1; 
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+.ticket-info h3 {
+    margin: 0 0 10px;
+}
+
+.ticket-info p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.read-more-button {
+    align-self: flex-start;
+    padding: 10px 15px;
+    background-color: #c7a123;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.read-more-button:hover {
+    background-color: #0056b3;
+}
+
+/* footer */
+
+footer {
+    
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
 }
